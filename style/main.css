@@ -18,7 +18,7 @@ header{
 }
 header a.logo{
     text-decoration: none;
-    color: #3A6Cf4;
+    /* color: #3A6Cf4; */
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -31,7 +31,7 @@ header nav.navigation{
 header nav.navigation a{
     text-decoration: none;
     padding-left: 30px; 
-    color: #3A6Cf4;
+    /* color: #3A6Cf4; */
     font-size: 1.1em;
     font-weight: 500;
 
@@ -56,7 +56,7 @@ section.main{
 }
 
 section.main div.opacity-class{
-    background-color: rgb(1, 0, 0, 0.5);
+    background-color: rgb(1, 0, 0, 0.4);
     width: 100%;
     min-height: 100vh;
     padding: 200px 200px;

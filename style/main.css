@@ -163,3 +163,19 @@ section.cards div.content div.card div.info{
     text-align: center;
     font-weight: 300;
 }
+
+section.founder{
+    padding: 200px 200px;
+}
+
+section.founder h3.founder-title{
+    text-align: center;
+    color: #0a49f6;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+section.founder div.cards div.card img.founder-pictures{
+    display: block;
+}

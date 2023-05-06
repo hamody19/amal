@@ -1,14 +1,16 @@
 window.onscroll = function () {
-  scrollfunction();
+  scrollFunction();
 };
-function scrollfunction() {
+
+function scrollFunction() {
   if (
     document.body.scrollTop > 20 ||
     document.documentElement.scrollTop > 20
   ) {
-    document.getElementById("ett").style.background = "rgb(255, 255, 255, 50)";
-    document.getElementsByClassName("navigation").style.color = "blue"
+    document.getElementById("navigation-bar-behaver").style.background = "rgba(255, 255, 255, 0.5)";
+    document.getElementById("amal-logo").style.color = "#000000";
   } else {
-    document.getElementById("ett").style.background = "rgb(0,0,0,0)";
+    document.getElementById("navigation-bar-behaver").style.background = "rgba(0,0,0,0)";
+    document.getElementById("amal-logo").style.color = "#ffffff"; // Change the color back to white
   }
 }

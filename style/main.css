@@ -14,10 +14,11 @@ header{
     justify-content: space-between;
     padding: 10px 200px;
     transition: 0.7s;
+    
 }
-.logo{
+header a.logo{
     text-decoration: none;
-    color: #FFFFFF; /*#3A6Cf4;*/
+    color: #3A6Cf4;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -30,7 +31,7 @@ header nav.navigation{
 header nav.navigation a{
     text-decoration: none;
     padding-left: 30px; 
-    color: #FFF;/*#3A6Cf4;*/
+    color: #3A6Cf4;
     font-size: 1.1em;
     font-weight: 500;
 
